@@ -1,3 +1,15 @@
+:root {
+  --default-background-color: #ffffff;
+  --primary-action-color: #1e90ff;
+  --secondary-background-color: #ffffff;
+  --default-text-color: black;
+  --primary-text-color: black;
+  --secondary-text-color: #ffffff;
+  --divider-color: grey;
+  --font-special: "Luckiest Guy", cursive;
+  --font-regular: "Roboto Slab", serif;
+}
 .App {
+  font-family: var(--font-regular);
   text-align: center;
 }

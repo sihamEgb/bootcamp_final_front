@@ -1,19 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Footer.css";
+import app_settings from "../../app_settings";
+
+import "./Homepage.css";
 
 const Homepage = (props) => {
   return (
-    <div className='ui nav'>
-      <div className='footer__social'>
-        <i>instagram</i>
-        <i>facebook</i>
-        <i>youtube</i>
-        <i>twitter</i>
+    <div className='homepage__container'>
+      <div className='homepage__container__left'>
+        <div className='homepage_container__left__title'>
+          {app_settings.get("app_homepage_title")}
+        </div>
+        <div className='homepage_container__left__content'>
+          {app_settings.get("app_homepage_content")}
+        </div>
+        <div className='homepage_container__left__action'>
+          {app_settings.get("app_homepage_action")}
+        </div>
       </div>
-      <div>
-        <p>Copyright 2020 Siham Egbaria. All Rights Reserved</p>
-      </div>
+      <div className='homepage__container__right'></div>
     </div>
   );
 };
