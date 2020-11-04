@@ -1,19 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./ContactUs.css";
+import "./Testimonials.css";
 
 const Testimonials = (props) => {
-  return (
-    <div className='ui'>
-      <div className='contact-us'>
-        <h2>Get Latest Updates!</h2>
-        <p>Start saving the planet and not losing your invoices</p>
-      </div>
-      <div>
-        <p>Copyright 2020 Siham Egbaria. All Rights Reserved</p>
-      </div>
-    </div>
-  );
+  return <div className='container__testimonials'>Testimonials Comp</div>;
 };
 
 export default Testimonials;
