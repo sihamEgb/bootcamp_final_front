@@ -1,8 +1,8 @@
 import React from "react";
-import "./Sign.css";
+import "./SignIn.css";
 
-const Testimonials = (props) => {
+const SignIn = (props) => {
   return <div className='container__signIn'>Sign in Component</div>;
 };
 
-export default Testimonials;
+export default SignIn;
