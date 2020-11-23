@@ -8,11 +8,6 @@ const Testimonials = (props) => {
       <div className='contact-us'>
         <h2>Get Latest Updates!</h2>
         <p>Start saving the planet and not losing your invoices</p>
-        <Form>
-          <input>Name</input>
-          <input>Email</input>
-          <button>Subscribe</button>
-        </Form>
       </div>
       <div>
         <p>Copyright 2020 Siham Egbaria. All Rights Reserved</p>
