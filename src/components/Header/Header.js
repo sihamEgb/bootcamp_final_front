@@ -4,30 +4,11 @@ import "./Header.css";
 
 const Header = (props) => {
   return (
-    <div className='header-container'>
-      this is header
-      {/* <Link className='header-logo header-nav-item' to='/'>
-      
-        Homepage
-      </Link>
-      <div className='header-nav'>
-        <Link
-          className='header-nav-item'
-          to={{
-            pathname: "/poses",
-            state: { poses: props.poses },
-          }}>
-          All Poses
-        </Link>
-        <Link
-          className='header-nav-item'
-          to={{
-            pathname: "/workouts",
-            state: { poses: props.poses },
-          }}>
-          Workouts
-        </Link> */}
-      {/* </div> */}
+    <div className='ui nav'>
+      <Link to='/'>Invoice Digitization</Link>
+      <Link>About us</Link>
+      <Link>Services</Link>
+      <Link>Contact us</Link>
     </div>
   );
 };
